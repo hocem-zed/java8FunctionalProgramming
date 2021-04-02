@@ -9,5 +9,6 @@ public class Lambdas {
         Function<String, String> upperCaseName = name -> name.toUpperCase();
 
         System.out.println(upperCaseName.apply("dovi"));
+
     }
 }
